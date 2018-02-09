@@ -31,6 +31,9 @@
     </ul>
 
     <h3>リンク</h3>
+    <ul>
+      <li><a href="https://qiita.com/kawax/items/8ec7275ef6d7b818c594" target="_blank" rel="noopener">『古いWordPressをアップデートしようキャンペーン』 参加者を募集したい - Qiita</a></li>
+    </ul>
 
     <h3>利用規約</h3>
     <ul>
