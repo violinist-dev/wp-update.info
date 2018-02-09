@@ -28,3 +28,4 @@ aliases
 web/app/languages
 
 web/app/wflogs/
+web/.user.ini
