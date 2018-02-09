@@ -23,7 +23,6 @@
     <ul>
       <li>WordPressのユーザー機能を使っているので普通に<a href="/login/?action=register" class="btn btn-outline-dark">ユーザー登録</a>後プロフィールを設定。</li>
       <li>参加者リストに表示を有効にするまでは表示されない。使用するのは表示名とプロフィール情報と下のほうの追加項目。</li>
-      <li>ログインにはGoogle Authenticatorでの二要素認証を必須にする予定。</li>
     </ul>
 
     <h3>アップデートの申し込み方法</h3>
