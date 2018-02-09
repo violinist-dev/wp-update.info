@@ -1,7 +1,7 @@
-<header class="banner py-5">
+<header class="banner py-5 mb-3 bg-dark">
   <div class="container">
     <h1>
-      <a class="brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
+      <a class="brand text-white" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
     </h1>
     <nav class="nav-primary">
       @if (has_nav_menu('primary_navigation'))
