@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Controllers;
+namespace App;
 
 use Sober\Controller\Controller;
 
-class App extends Controller
+class app extends Controller
 {
     public function siteName()
     {
