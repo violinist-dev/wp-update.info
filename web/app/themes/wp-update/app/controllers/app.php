@@ -11,13 +11,6 @@ class app extends Controller
         return get_bloginfo('name');
     }
 
-    public function wp_version()
-    {
-        global $wp_version;
-
-        return $wp_version;
-    }
-
     public static function title()
     {
         if (is_home()) {
