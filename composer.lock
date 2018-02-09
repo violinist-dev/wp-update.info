@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "da594e52ae158471cc139489108dfbf2",
+    "content-hash": "c1ee221ed46996a22c1aec92d6b71d6a",
     "packages": [
         {
             "name": "composer/installers",
@@ -435,6 +435,26 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
+            "name": "wpackagist-plugin/2fas-light",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/2fas-light/",
+                "reference": "tags/1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/2fas-light.1.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/2fas-light/"
+        },
+        {
             "name": "wpackagist-plugin/akismet",
             "version": "4.0.2",
             "source": {
@@ -533,26 +553,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mailgun/"
-        },
-        {
-            "name": "wpackagist-plugin/miniorange-2-factor-authentication",
-            "version": "4.5.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/miniorange-2-factor-authentication/",
-                "reference": "tags/4.5.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/miniorange-2-factor-authentication.4.5.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/miniorange-2-factor-authentication/"
         },
         {
             "name": "wpackagist-plugin/pods",
