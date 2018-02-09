@@ -7,6 +7,8 @@
     <div class="wrap container-fluid" role="document">
       <div class="content">
         <main class="main">
+          @debug
+
           @yield('content')
         </main>
         @if (App\display_sidebar())
