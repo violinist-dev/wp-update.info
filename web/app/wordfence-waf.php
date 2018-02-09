@@ -5,4 +5,3 @@ if (file_exists(__DIR__ . '/plugins/wordfence/waf/bootstrap.php')) {
     define("WFWAF_LOG_PATH", __DIR__ . '/wflogs/');
     include_once __DIR__ . '/plugins/wordfence/waf/bootstrap.php';
 }
-?>
