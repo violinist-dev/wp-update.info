@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use Sober\Controller\Controller;
 
-class Author extends Controller
+class author extends Controller
 {
     /**
      * author.blade.php の $user
