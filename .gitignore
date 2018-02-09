@@ -26,3 +26,5 @@ aliases
 .vagrant
 
 web/app/languages
+
+web/app/wflogs/
