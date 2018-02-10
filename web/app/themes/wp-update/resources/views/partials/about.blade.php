@@ -9,6 +9,7 @@
     <h3>最新バージョンを使う理由</h3>
     <p>なによりもセキュリティ。WordPressの脆弱性がニュースになりますが今のWordPressは自動更新できるのできちんと設定しておけばほとんどの場合は問題ありません。</p>
     <p>PHPのアップデートも必要。すでに5.5以下はサポート終了。5.6と7.0も2018年末で終了。1年ごとに新バージョンが出て3年前のバージョンがサポート終了するリリーススケジュール。</p>
+    <p>WordPressに必要なPHPバージョンも徐々に上げていく計画が始まっているので今後はWordPressもPHPもアップデートしていく必要があります。<a href="https://make.wordpress.org/core/2018/01/09/servehappy-roadmap/" target="_blank" rel="noopener">Serverhappy</a> </p>
 
     <h3>募集中</h3>
     <ul>
