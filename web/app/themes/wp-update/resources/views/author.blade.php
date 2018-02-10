@@ -10,7 +10,7 @@
         プロフィール
       </div>
       <div class="card-body">
-        <p class="card-text">{{ $user->description }}</p>
+        <p class="card-text">{!! $user->profile !!}</p>
       </div>
     </div>
 
