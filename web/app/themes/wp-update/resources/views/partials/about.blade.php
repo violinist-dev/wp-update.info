@@ -9,11 +9,16 @@
     <h3>最新バージョンを使う理由</h3>
     <p>なによりもセキュリティ。WordPressの脆弱性がニュースになりますが今のWordPressは自動更新できるのできちんと設定しておけばほとんどの場合は問題ありません。</p>
     <p>PHPのアップデートも必要。すでに5.5以下はサポート終了。5.6と7.0も2018年末で終了。1年ごとに新バージョンが出て3年前のバージョンがサポート終了するリリーススケジュール。</p>
-    <p>WordPressに必要なPHPバージョンも徐々に上げていく計画が始まっているので今後はWordPressもPHPもアップデートしていく必要があります。<a href="https://make.wordpress.org/core/2018/01/09/servehappy-roadmap/" target="_blank" rel="noopener">servehappy</a> </p>
+    <p>WordPressに必要なPHPバージョンも徐々に上げていく計画が始まっているので今後はWordPressもPHPもアップデートしていく必要があります。
+      <a href="https://make.wordpress.org/core/2018/01/09/servehappy-roadmap/"
+         target="_blank"
+         rel="noopener">servehappy</a></p>
 
     <h3>募集中</h3>
     <ul>
-      <li>ここのaboutの文章：<a href="https://github.com/kawax/wordpress-update.info" target="_blank" rel="noopener">GitHub</a>で。</li>
+      <li>
+        ここのaboutの文章：<a href="https://github.com/kawax/wordpress-update.info" target="_blank" rel="noopener">GitHub</a>で。
+      </li>
       <li>WordPressのアップデートと運用ができる参加者：法人でも個人でも。</li>
     </ul>
 
@@ -26,7 +31,9 @@
 
     <h3>参加方法</h3>
     <ul>
-      <li>WordPressのユーザー機能を使っているので普通に<a href="/login/?action=register" class="btn btn-outline-dark">ユーザー登録</a>後プロフィールを設定。</li>
+      <li>
+        WordPressのユーザー機能を使っているので普通に<a href="/login/?action=register" class="btn btn-outline-dark">ユーザー登録</a>後プロフィールを設定。
+      </li>
       <li>参加者リストに表示を有効にするまでは表示されない。使用するのは表示名と下のほうの追加項目。</li>
     </ul>
 
@@ -39,7 +46,12 @@
 
     <h3>リンク</h3>
     <ul>
-      <li><a href="https://qiita.com/kawax/items/8ec7275ef6d7b818c594" target="_blank" rel="noopener">『古いWordPressをアップデートしようキャンペーン』 参加者を募集したい - Qiita</a></li>
+      <li>
+        <a href="https://medinathoughts.com/2018/01/29/wordpress-google/" target="_blank" rel="noopener">
+          WordPress @ Google | Alberto Medina&apos;s Blog
+        </a>
+        GoogleがWordPressの改善に力を入れ始めている。古いバージョンのままでは恩恵を受けられない。
+      </li>
     </ul>
 
     <h3>利用規約</h3>
