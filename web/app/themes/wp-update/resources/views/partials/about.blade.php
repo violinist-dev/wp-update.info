@@ -47,10 +47,25 @@
     <h3>リンク</h3>
     <ul>
       <li>
-        <a href="https://medinathoughts.com/2018/01/29/wordpress-google/" target="_blank" rel="noopener">
+        <a href="https://medinathoughts.com/2018/01/29/wordpress-google/"
+           target="_blank" rel="noopener">
           WordPress @ Google | Alberto Medina&apos;s Blog
         </a>
         GoogleがWordPressの改善に力を入れ始めている。古いバージョンのままでは恩恵を受けられない。
+      </li>
+      <li>
+        <a href="https://www.ipa.go.jp/security/ciadr/vul/20170206-wordpress.html"
+           target="_blank" rel="noopener">
+          WordPress の脆弱性対策について：IPA 独立行政法人 情報処理推進機構
+        </a>
+        一番最近の影響の大きかった脆弱性。
+      </li>
+      <li>
+        <a href="https://www.city.chiyoda.lg.jp/koho/bunka/bunka/toshokan/dokushochosa/kokaiteishi.html"
+           target="_blank" rel="noopener">
+          千代田区ホームページ - 千代田区立図書館ホームページの公開停止に関するお知らせ
+        </a>
+        古いWordPressを使い続けて改ざん被害にあった例。
       </li>
     </ul>
 
