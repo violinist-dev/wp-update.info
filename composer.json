@@ -48,6 +48,7 @@
     "revolution/enable-automatic-updates-vcs": "^1.0",
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/argiope-amoena": "*",
+    "wpackagist-plugin/backwpup": "*",
     "wpackagist-plugin/better-search-replace": "*",
     "wpackagist-plugin/logbook": "*",
     "wpackagist-plugin/really-simple-ssl": "*",
