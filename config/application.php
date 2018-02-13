@@ -81,3 +81,5 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+define('WP_CACHE_KEY_SALT', env('WP_CACHE_KEY_SALT'));

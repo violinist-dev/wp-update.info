@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ba75482e9148c031782c6b7329a316d",
+    "content-hash": "6b6181cc4a49dd5ec85aaf836a46183a",
     "packages": [
         {
             "name": "composer/installers",
@@ -385,6 +385,41 @@
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
+            "name": "tillkruss/redis-cache",
+            "version": "1.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tillkruss/redis-cache.git",
+                "reference": "3b05fcbd74296ee1e9146517ad0bc2ce53bd4a72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tillkruss/redis-cache/zipball/3b05fcbd74296ee1e9146517ad0bc2ce53bd4a72",
+                "reference": "3b05fcbd74296ee1e9146517ad0bc2ce53bd4a72",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.3"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Till Krüss",
+                    "homepage": "https://till.im/"
+                }
+            ],
+            "description": "A persistent object cache backend for WordPress powered by Redis. Supports Predis, PhpRedis, HHVM, replication and clustering.",
+            "homepage": "https://github.com/tillkruss/redis-cache",
+            "time": "2016-11-07T02:09:42+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -636,15 +671,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "7.0.2",
+            "version": "7.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/7.0.2"
+                "reference": "tags/7.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.7.0.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.7.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -676,15 +711,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.2.2"
+                "reference": "tags/1.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.3.zip",
                 "reference": null,
                 "shasum": null
             },
