@@ -15,6 +15,12 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
 }, 100);
 
+remove_action('wp_head', 'rsd_link');
+remove_action('wp_head', 'wlwmanifest_link');
+remove_action('wp_head','wp_oembed_add_host_js');
+remove_action('wp_head','rest_output_link_wp_head');
+remove_action('wp_head', 'wp_generator');
+
 /**
  * Theme setup
  */
