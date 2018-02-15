@@ -11,6 +11,11 @@ class app extends Controller
         return get_bloginfo('name');
     }
 
+    public function phpVersion()
+    {
+        return PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION;
+    }
+
     public static function title()
     {
         if (is_home()) {
