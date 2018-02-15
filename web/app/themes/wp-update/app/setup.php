@@ -11,10 +11,15 @@ use Roots\Sage\Template\BladeProvider;
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
-    //wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
     wp_deregister_script('jquery');
 
+    wp_enqueue_style('fontawesome5', 'https://use.fontawesome.com/releases/v5.0.6/css/fontawesome.css');
+    wp_enqueue_style('fontawesome5-brand', 'https://use.fontawesome.com/releases/v5.0.6/css/brands.css');
+
+    wp_enqueue_style('sage/app.css', asset_path('css/app.css'), false, null);
+    wp_enqueue_script('sage/manifest.js', asset_path('js/manifest.js'), null, null, true);
+    wp_enqueue_script('sage/vendor.js', asset_path('js/vendor.js'), null, null, true);
+    wp_enqueue_script('sage/app.js', asset_path('js/app.js'), null, null, true);
 }, 100);
 
 remove_action('wp_head', 'rsd_link');
@@ -31,11 +36,11 @@ add_action('after_setup_theme', function () {
      * Enable features from Soil when plugin is activated
      * @link https://roots.io/plugins/soil/
      */
-    add_theme_support('soil-clean-up');
-    add_theme_support('soil-jquery-cdn');
-    add_theme_support('soil-nav-walker');
-    add_theme_support('soil-nice-search');
-    add_theme_support('soil-relative-urls');
+    //    add_theme_support('soil-clean-up');
+    //    add_theme_support('soil-jquery-cdn');
+    //    add_theme_support('soil-nav-walker');
+    //    add_theme_support('soil-nice-search');
+    //    add_theme_support('soil-relative-urls');
 
     /**
      * Enable plugins to manage the document title
@@ -48,7 +53,7 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage')
+        'primary_navigation' => __('Primary Navigation', 'sage'),
     ]);
 
     /**
@@ -73,7 +78,7 @@ add_action('after_setup_theme', function () {
      * Use main stylesheet for visual editor
      * @see resources/assets/styles/layouts/_tinymce.scss
      */
-    add_editor_style(asset_path('styles/main.css'));
+    //    add_editor_style(asset_path('styles/main.css'));
 }, 20);
 
 /**
@@ -84,16 +89,16 @@ add_action('widgets_init', function () {
         'before_widget' => '<section class="widget %1$s %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
+        'after_title'   => '</h3>',
     ];
     register_sidebar([
-        'name'          => __('Primary', 'sage'),
-        'id'            => 'sidebar-primary'
-    ] + $config);
+            'name' => __('Primary', 'sage'),
+            'id'   => 'sidebar-primary',
+        ] + $config);
     register_sidebar([
-        'name'          => __('Footer', 'sage'),
-        'id'            => 'sidebar-footer'
-    ] + $config);
+            'name' => __('Footer', 'sage'),
+            'id'   => 'sidebar-footer',
+        ] + $config);
 });
 
 /**
@@ -124,6 +129,7 @@ add_action('after_setup_theme', function () {
             wp_mkdir_p($cachePath);
         }
         (new BladeProvider($app))->register();
+
         return new Blade($app['view']);
     });
 

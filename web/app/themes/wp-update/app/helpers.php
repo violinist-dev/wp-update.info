@@ -76,7 +76,7 @@ function template_path($file, $data = [])
  */
 function asset_path($asset)
 {
-    return sage('assets')->getUri($asset);
+    return str_replace('/dist//', '/dist/', sage('assets')->getUri('/' . $asset));
 }
 
 /**
