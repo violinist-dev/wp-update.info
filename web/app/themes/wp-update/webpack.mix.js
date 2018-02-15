@@ -13,9 +13,6 @@ let mix = require('laravel-mix');
 
 mix.setPublicPath('dist')
   .js('resources/assets/js/app.js', 'js/')
-  .extract([
-    'bootstrap'
-  ])
   .sass('resources/assets/sass/app.scss', 'css/')
   .options({
     processCssUrls: false

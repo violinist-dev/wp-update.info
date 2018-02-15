@@ -1,7 +1,6 @@
 <header class="py-5 mb-3 bg-dark">
   <div class="container-fluid ml-md-5">
     <h1>
-      <i class="text-white fab fa-wordpress" aria-hidden="true"></i>
       <a class="brand text-white" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
     </h1>
     <nav class="nav-primary">

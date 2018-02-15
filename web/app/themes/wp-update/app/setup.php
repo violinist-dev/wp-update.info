@@ -13,12 +13,11 @@ use Roots\Sage\Template\BladeProvider;
 add_action('wp_enqueue_scripts', function () {
     wp_deregister_script('jquery');
 
-    wp_enqueue_style('fontawesome5', 'https://use.fontawesome.com/releases/v5.0.6/css/fontawesome.css');
-    wp_enqueue_style('fontawesome5-brand', 'https://use.fontawesome.com/releases/v5.0.6/css/brands.css');
+//    wp_enqueue_style('fontawesome5', 'https://use.fontawesome.com/releases/v5.0.6/css/fontawesome.css');
+//    wp_enqueue_style('fontawesome5-brand', 'https://use.fontawesome.com/releases/v5.0.6/css/brands.css');
 
     wp_enqueue_style('sage/app.css', asset_path('css/app.css'), false, null);
-    wp_enqueue_script('sage/manifest.js', asset_path('js/manifest.js'), null, null, true);
-    wp_enqueue_script('sage/vendor.js', asset_path('js/vendor.js'), null, null, true);
+
     wp_enqueue_script('sage/app.js', asset_path('js/app.js'), null, null, true);
 }, 100);
 
