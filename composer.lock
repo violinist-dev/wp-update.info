@@ -671,15 +671,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "7.0.4",
+            "version": "7.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/7.0.4"
+                "reference": "tags/7.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.7.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.7.0.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -711,15 +711,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.2.3",
+            "version": "1.2.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.2.3"
+                "reference": "tags/1.2.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
