@@ -17,7 +17,7 @@
     <h3>募集中</h3>
     <ul>
       <li>
-        ここのaboutの文章：<a href="https://github.com/kawax/wordpress-update.info" target="_blank" rel="noopener">GitHub</a>で。
+        ここのaboutの文章：<a href="https://github.com/kawax/wp-update.info" target="_blank" rel="noopener">GitHub</a>で。
       </li>
       <li>WordPressのアップデートと運用ができる参加者：法人でも個人でも。</li>
     </ul>
@@ -32,7 +32,7 @@
     <h3>参加方法</h3>
     <ul>
       <li>
-        WordPressのユーザー機能を使っているので普通に<a href="/login/?action=register" class="btn btn-outline-dark">ユーザー登録</a>後プロフィールを設定。
+        WordPressのユーザー機能を使っているので普通に<a href="/login/?action=register" class="btn btn-outline-dark" rel="nofollow">ユーザー登録</a>後プロフィールを設定。
       </li>
       <li>参加者リストに表示を有効にするまでは表示されない。使用するのは表示名と下のほうの追加項目。</li>
     </ul>

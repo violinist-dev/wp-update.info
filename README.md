@@ -1,6 +1,6 @@
 # 古いWordPressをアップデートしようキャンペーン
 
-https://wordpress-update.info/
+https://wp-update.info/
 
 ## テーマ
 https://github.com/roots/sage
@@ -18,8 +18,8 @@ Controllerと言っても独特な仕様なので`users()`の返り値がビュ�
 WordPressとテーマで2回`composer install`が必要。
 
 ```bash
-git clone https://github.com/kawax/wordpress-update.info.git
-cd wordpress-update.info
+git clone https://github.com/kawax/wp-update.info.git
+cd wp-update.info
 composer install
 cd web/app/themes/wp-update/
 composer install

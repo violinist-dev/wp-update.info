@@ -10,7 +10,7 @@
 
       <h2>参加者リスト({{ count($users) }})
         @unless(is_user_logged_in())
-          <a href="/login/" class="btn btn-outline-dark">ログイン</a>
+          <a href="/login/" class="btn btn-outline-dark" rel="nofollow">ログイン</a>
         @endunless
       </h2>
 
