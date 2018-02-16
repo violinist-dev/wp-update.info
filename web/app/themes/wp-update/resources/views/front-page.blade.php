@@ -8,7 +8,11 @@
 
     <div class="col-sm-6">
 
-      <h2>参加者リスト({{ count($users) }}) <a href="/login/" class="btn btn-outline-dark">ログイン</a></h2>
+      <h2>参加者リスト({{ count($users) }})
+        @unless(is_user_logged_in())
+          <a href="/login/" class="btn btn-outline-dark">ログイン</a>
+        @endunless
+      </h2>
 
       <div class="table-responsive">
         <table class="table table-hover">
