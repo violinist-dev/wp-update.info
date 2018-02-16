@@ -15,7 +15,7 @@
          data-show-count="false">Tweet</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-      <a href="http://b.hatena.ne.jp/entry/s/wordpress-update.info/"
+      <a href="http://b.hatena.ne.jp/entry/s/wp-update.info/"
          class="hatena-bookmark-button"
          data-hatena-bookmark-layout="basic-label-counter"
          data-hatena-bookmark-lang="ja"
