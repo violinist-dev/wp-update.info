@@ -1,5 +1,5 @@
 <header class="py-5 mb-3 bg-dark">
-  <div class="container-fluid ml-md-5">
+  <div class="container">
     <h1>
       <a class="brand text-white" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
     </h1>
