@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ba75482e9148c031782c6b7329a316d",
+    "content-hash": "dc0cf51214c6a9b838bebdb79c37c119",
     "packages": [
         {
             "name": "composer/installers",
@@ -533,6 +533,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/better-search-replace/"
+        },
+        {
+            "name": "wpackagist-plugin/delete-me",
+            "version": "2.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/delete-me/",
+                "reference": "tags/2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/delete-me.2.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/delete-me/"
         },
         {
             "name": "wpackagist-plugin/logbook",
