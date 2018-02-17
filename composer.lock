@@ -536,15 +536,15 @@
         },
         {
             "name": "wpackagist-plugin/delete-me",
-            "version": "2.3",
+            "version": "2.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/delete-me/",
-                "reference": "tags/2.3"
+                "reference": "tags/2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/delete-me.2.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/delete-me.2.4.zip",
                 "reference": null,
                 "shasum": null
             },
