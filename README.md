@@ -23,6 +23,8 @@ GitHubへのpushで→Forge→AWSへデプロイ。
 
 Controllerと言っても独特な仕様なので`users()`の返り値がビューに`$users`として渡されるとだけ覚えればいい。
 
+他の人が触れるとしたらviewの部分くらい。GitHubまで見てる人なら詳しく説明しなくても分かるだろう…。
+
 ## ローカル開発
 WordPressとテーマで2回`composer install`が必要。
 
