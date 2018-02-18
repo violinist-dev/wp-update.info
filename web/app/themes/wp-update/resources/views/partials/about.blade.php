@@ -19,7 +19,7 @@
       <li>
         ここのaboutの文章：<a href="https://github.com/kawax/wp-update.info" target="_blank" rel="noopener">GitHub</a>で。
       </li>
-      <li>WordPressのアップデートと運用ができる参加者：法人でも個人でも。</li>
+      <li>WordPressのアップデートと運用ができる参加者：法人でも個人でも。個人の場合はチームを組んで運営も可。</li>
     </ul>
 
     <h3>条件</h3>
