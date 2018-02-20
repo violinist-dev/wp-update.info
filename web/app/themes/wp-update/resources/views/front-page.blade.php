@@ -8,7 +8,7 @@
 
     <div class="col-sm-6">
 
-      <h2>参加者リスト({{ count($users) }})
+      <h2>参加者リスト({{ $users->get_total() }})
         @unless(is_user_logged_in())
           <a href="/login/" class="btn btn-outline-dark" rel="nofollow">ログイン</a>
         @endunless
@@ -23,7 +23,7 @@
           </tr>
           </thead>
           <tbody>
-          @foreach($users as $user)
+          @foreach($users->get_results() as $user)
             <tr>
               <th scope="row">
                 <a href="{{ get_author_posts_url($user->ID) }}">
@@ -37,6 +37,8 @@
           </tbody>
         </table>
       </div>
+
+      {!! \App\FrontPage::pagination($users->get_total()) !!}
     </div>
   </div>
 @endsection
