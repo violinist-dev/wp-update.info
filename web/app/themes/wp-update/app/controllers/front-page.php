@@ -20,7 +20,7 @@ class FrontPage extends Controller
         $page = get_query_var('page', 1);
 
         $args = [
-            //ユーザーが増えるまではランダム終了。user_registered
+            //ユーザーが増えるまではランダム表示。後でuser_registeredなどに変更。
             'orderby'      => 'rand',
             'order'        => 'ASC',
             'count_total'  => true,
