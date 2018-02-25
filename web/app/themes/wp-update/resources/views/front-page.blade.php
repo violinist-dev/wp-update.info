@@ -8,14 +8,14 @@
 
     <div class="col-sm-6">
 
-      <h2>参加者リスト({{ $users->get_total() }})
+      <h2 class="bg-white">参加者リスト({{ $users->get_total() }})
         @unless(is_user_logged_in())
           <a href="/login/" class="btn btn-outline-dark" rel="nofollow">ログイン</a>
         @endunless
       </h2>
 
       <div class="table-responsive">
-        <table class="table table-hover">
+        <table class="table table-hover bg-white">
           <thead class="thead-dark">
           <tr>
             <th scope="col">名前</th>

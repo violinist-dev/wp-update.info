@@ -1,5 +1,11 @@
 // Variables
 @import "variables";
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+body {
+  background-image: url("../images/wordpress-logo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 120%;
+}
