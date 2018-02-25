@@ -8,7 +8,7 @@ use WP_User_Query;
 
 class FrontPage extends Controller
 {
-    const NUMBER = 100;
+    const NUMBER = 1;
 
     /**
      * front-page.blade.php の $users
@@ -17,11 +17,12 @@ class FrontPage extends Controller
      */
     public function users(): WP_User_Query
     {
-        $page = get_query_var('page', 1);
+        $page = max(1, get_query_var('page', 1));
 
         $args = [
-            //ユーザーが増えるまではランダム表示。後でuser_registeredなどに変更。
-            'orderby'      => 'rand',
+            //ランダム表示:rand
+            //登録順:user_registered
+            'orderby'      => 'user_registered',
             'order'        => 'ASC',
             'count_total'  => true,
             'number'       => self::NUMBER,
@@ -49,10 +50,21 @@ class FrontPage extends Controller
 
         $args = [
             'format'  => '?page=%#%',
+            'type'    => 'array',
             'total'   => ceil($total / self::NUMBER),
             'current' => max(1, get_query_var('page', 1)),
         ];
 
-        return paginate_links($args);
+        $pages = paginate_links($args);
+
+        $html = str_replace('page-numbers', 'page-link', implode('', $pages));
+
+        $html = str_replace('<a', '<li class="page-item"><a', $html);
+        $html = str_replace('</a>', '</li></a>', $html);
+
+        $html = str_replace('<span', '<li class="page-item active"><span', $html);
+        $html = str_replace('</span>', '</li></a>', $html);
+
+        return '<ul class="pagination">' . $html . '</ul>';
     }
 }
