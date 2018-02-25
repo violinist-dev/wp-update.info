@@ -17,6 +17,8 @@ class FrontPage extends Controller
      */
     public function users(): WP_User_Query
     {
+        $number = max(env('USER_NUMBER'), self::NUMBER);
+
         $page = max(1, get_query_var('page', 1));
 
         $args = [
@@ -25,8 +27,8 @@ class FrontPage extends Controller
             'orderby'      => 'user_registered',
             'order'        => 'ASC',
             'count_total'  => true,
-            'number'       => self::NUMBER,
-            'offset'       => ($page - 1) * self::NUMBER,
+            'number'       => $number,
+            'offset'       => ($page - 1) * $number,
             'meta_key'     => 'active',
             'meta_value'   => '1',
             'meta_compare' => '=',
@@ -44,13 +46,15 @@ class FrontPage extends Controller
      */
     public static function pagination(int $total): string
     {
-        if ($total <= self::NUMBER) {
+        $number = max(env('USER_NUMBER'), self::NUMBER);
+
+        if ($total <= $number) {
             return '';
         }
 
         $args = [
             'format'  => '?page=%#%',
-            'total'   => ceil($total / self::NUMBER),
+            'total'   => ceil($total / $number),
             'current' => max(1, get_query_var('page', 1)),
         ];
 
