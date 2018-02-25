@@ -50,14 +50,11 @@ class FrontPage extends Controller
 
         $args = [
             'format'  => '?page=%#%',
-            'type'    => 'array',
             'total'   => ceil($total / self::NUMBER),
             'current' => max(1, get_query_var('page', 1)),
         ];
 
-        $pages = paginate_links($args);
-
-        $html = implode('', $pages);
+        $html = paginate_links($args);
 
         $search = [
             'page-numbers',
