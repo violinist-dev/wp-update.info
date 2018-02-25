@@ -57,13 +57,25 @@ class FrontPage extends Controller
 
         $pages = paginate_links($args);
 
-        $html = str_replace('page-numbers', 'page-link', implode('', $pages));
+        $html = implode('', $pages);
 
-        $html = str_replace('<a', '<li class="page-item"><a', $html);
-        $html = str_replace('</a>', '</li></a>', $html);
+        $search = [
+            'page-numbers',
+            '<a',
+            '</a>',
+            '<span',
+            '</span>',
+        ];
 
-        $html = str_replace('<span', '<li class="page-item active"><span', $html);
-        $html = str_replace('</span>', '</li></a>', $html);
+        $replace = [
+            'page-link',
+            '<li class="page-item"><a',
+            '</li></a>',
+            '<li class="page-item active"><span',
+            '</li></a>',
+        ];
+
+        $html = str_replace($search, $replace, $html);
 
         return '<ul class="pagination">' . $html . '</ul>';
     }
