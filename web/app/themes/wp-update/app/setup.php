@@ -7,6 +7,22 @@ use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
 
+use Illuminate\Database\Capsule\Manager;
+
+$capsule = new Manager;
+$capsule->addConnection([
+    'driver'    => 'mysql',
+    'host'      => DB_HOST,
+    'database'  => DB_NAME,
+    'username'  => DB_USER,
+    'password'  => DB_PASSWORD,
+    'charset'   => 'utf8mb4',
+    'collation' => 'utf8mb4_unicode_ci',
+    'prefix'    => env('DB_PREFIX') ?: 'wp_',
+]);
+$capsule->setAsGlobal();
+$capsule->bootEloquent();
+
 /**
  * Theme assets
  */
