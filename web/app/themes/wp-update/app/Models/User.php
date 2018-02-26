@@ -7,11 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class User extends Model
 {
     protected $table      = 'users';
-    public    $timestamps = false;
+    public $timestamps = false;
     protected $primaryKey = 'ID';
     const CREATED_AT = 'user_registered';
 
-    function meta()
+    public function meta()
     {
         return $this->hasMany(UserMeta::class);
     }

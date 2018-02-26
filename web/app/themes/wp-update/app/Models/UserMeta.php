@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class UserMeta extends Model
 {
     protected $table      = 'usermeta';
-    public    $timestamps = false;
+    public $timestamps = false;
     protected $primaryKey = 'umeta_id';
 
-    function user()
+    public function user()
     {
         return $this->belongsTo(User::class);
     }
