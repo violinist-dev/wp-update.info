@@ -15,7 +15,7 @@
       </h2>
 
       <div class="table-responsive">
-        <table class="table table-hover bg-white">
+        <table class="table table-hover bg-white table-bordered">
           <thead class="thead-dark">
           <tr>
             <th scope="col">名前</th>
