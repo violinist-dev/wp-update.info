@@ -6,8 +6,6 @@ use Sober\Controller\Controller;
 
 use WP_User_Query;
 
-use App\Models\User;
-
 class FrontPage extends Controller
 {
     const NUMBER = 1;
@@ -15,22 +13,10 @@ class FrontPage extends Controller
     /**
      * front-page.blade.php の $users
      *
-     * @return mixed
+     * @return WP_User_Query
      */
-    public function users()
+    public function users(): WP_User_Query
     {
-        // Eloquent使うか迷い中
-        //        $perPage = max(env('USER_NUMBER'), self::NUMBER);
-        //        $page = max(1, get_query_var('page', 1));
-        //
-        //        $users = User::with('meta')
-        //                     ->whereHas('meta', function ($query) {
-        //                         $query->where('meta_key', '=', 'active')
-        //                               ->where('meta_value', '1');
-        //                     })
-        //                     ->oldest('user_registered')
-        //                     ->paginate($perPage, null, null, $page);
-
         $number = max(env('USER_NUMBER'), self::NUMBER);
 
         $page = max(1, get_query_var('page', 1));

@@ -7,30 +7,11 @@ use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
 
-use Illuminate\Database\Capsule\Manager;
-
-$capsule = new Manager;
-$capsule->addConnection([
-    'driver'    => 'mysql',
-    'host'      => DB_HOST,
-    'database'  => DB_NAME,
-    'username'  => DB_USER,
-    'password'  => DB_PASSWORD,
-    'charset'   => 'utf8mb4',
-    'collation' => 'utf8mb4_unicode_ci',
-    'prefix'    => env('DB_PREFIX') ?: 'wp_',
-]);
-$capsule->setAsGlobal();
-$capsule->bootEloquent();
-
 /**
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
     wp_deregister_script('jquery');
-
-//    wp_enqueue_style('fontawesome5', 'https://use.fontawesome.com/releases/v5.0.6/css/fontawesome.css');
-//    wp_enqueue_style('fontawesome5-brand', 'https://use.fontawesome.com/releases/v5.0.6/css/brands.css');
 
     wp_enqueue_style('sage/app.css', asset_path('css/app.css'), false, null);
 
@@ -89,10 +70,10 @@ add_action('after_setup_theme', function () {
      */
     add_theme_support('customize-selective-refresh-widgets');
 
-/**
- * Use main stylesheet for visual editor
- * @see resources/assets/styles/layouts/_tinymce.scss
- */
+    /**
+     * Use main stylesheet for visual editor
+     * @see resources/assets/styles/layouts/_tinymce.scss
+     */
     //    add_editor_style(asset_path('styles/main.css'));
 }, 20);
 
