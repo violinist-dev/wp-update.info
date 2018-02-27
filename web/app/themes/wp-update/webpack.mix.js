@@ -17,4 +17,4 @@ mix.setPublicPath('dist')
   .options({
     processCssUrls: false
   })
-  .version()
+  .version();
