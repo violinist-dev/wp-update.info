@@ -8,6 +8,8 @@ use WP_User_Query;
 
 class FrontPage extends Controller
 {
+    protected $template = 'front-page';
+
     const NUMBER = 1;
 
     /**
