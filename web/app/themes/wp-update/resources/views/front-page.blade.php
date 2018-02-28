@@ -38,7 +38,7 @@
         </table>
       </div>
 
-      {!! \App\FrontPage::pagination($users->get_total()) !!}
+      {!! \App\Controllers\FrontPage::pagination($users->get_total()) !!}
     </div>
   </div>
 @endsection

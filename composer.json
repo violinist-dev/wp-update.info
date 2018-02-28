@@ -30,7 +30,9 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
   },
   "repositories": [
     {
@@ -46,10 +48,7 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "^1.0.0",
     "revolution/enable-automatic-updates-vcs": "^1.0",
-    "wpackagist-plugin/akismet": "*",
-    "wpackagist-plugin/argiope-amoena": "*",
     "wpackagist-plugin/backwpup": "*",
-    "wpackagist-plugin/better-search-replace": "*",
     "wpackagist-plugin/delete-me": "*",
     "wpackagist-plugin/logbook": "*",
     "wpackagist-plugin/really-simple-ssl": "*",

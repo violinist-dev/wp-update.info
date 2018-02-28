@@ -1,12 +1,12 @@
 <?php
 
-namespace App;
+namespace App\Controllers;
 
 use Sober\Controller\Controller;
 
 use WP_User;
 
-class author extends Controller
+class Author extends Controller
 {
     /**
      * author.blade.php の $user
