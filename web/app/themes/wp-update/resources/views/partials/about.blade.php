@@ -17,7 +17,7 @@
     <h3>Slack</h3>
     <ul>
       <li>
-        <a href="https://join.slack.com/t/wp-update/shared_invite/enQtMzIxMzMxODg0Mjc0LTA1MzQ2MzY0ZjBiZGE3MzViNjRhNjc2MGUwY2U0NzJkNzc5NzU1OGUwMmFiZDhiMGQwNTg3Y2JiMWM0NzcwMjM">招待リンク</a>から誰でも参加できます。相談窓口。
+        <a href="https://join.slack.com/t/wp-update/shared_invite/enQtMzIxMzMxODg0Mjc0LTA1MzQ2MzY0ZjBiZGE3MzViNjRhNjc2MGUwY2U0NzJkNzc5NzU1OGUwMmFiZDhiMGQwNTg3Y2JiMWM0NzcwMjM" target="_blank" rel="noopener">招待リンク</a>から誰でも参加できます。相談窓口。
       </li>
     </ul>
 
@@ -29,11 +29,11 @@
       </li>
     </ul>
 
-    <h3>条件</h3>
+    <h3>参加条件</h3>
     <ul>
       <li>古いWordPressはおそらくサーバーも古いので新しいサーバーに移行作業ができる。</li>
       <li>その後のアップデートも続けられる。</li>
-      <li>適切な料金を設定できる。異常な安売りがこの状況を招いてる。</li>
+      <li>適切な料金を設定できる。異常な安売りがこの状況を招いてる。月数千円で制作会社に任せてたWordPressを引き継ぐと実際には何もやってない詐欺ということがほとんど。</li>
     </ul>
 
     <h3>参加方法</h3>
