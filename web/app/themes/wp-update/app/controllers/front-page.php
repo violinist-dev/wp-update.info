@@ -17,7 +17,7 @@ class FrontPage extends Controller
      */
     public function users(): WP_User_Query
     {
-        $number = max(env('USER_NUMBER'), self::NUMBER);
+        $number = env('USER_NUMBER') ?? self::NUMBER;
 
         $page = max(1, get_query_var('page', 1));
 
@@ -46,7 +46,7 @@ class FrontPage extends Controller
      */
     public static function pagination(int $total): string
     {
-        $number = max(env('USER_NUMBER'), self::NUMBER);
+        $number = env('USER_NUMBER') ?? self::NUMBER;
 
         if ($total <= $number) {
             return '';
