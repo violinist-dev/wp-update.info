@@ -3,48 +3,48 @@
 @section('content')
   <div class="container">
 
-    <h2>{{ $user->display_name }}</h2>
+    <h1>{!! get_avatar($user->ID, 32, '', '', ['class' => 'rounded-circle my-3']) !!} {{ $user->display_name }}</h1>
 
-    <div class="card bg-light mb-3">
-      <div class="card-header">
+    <div class="card bg-white mb-3">
+      <h5 class="card-header bg-white">
         プロフィール
-      </div>
+      </h5>
       <div class="card-body">
         <p class="card-text">{!! $user->profile !!}</p>
       </div>
     </div>
 
-    <div class="card bg-light mb-3">
-      <div class="card-header">
+    <div class="card bg-white mb-3">
+      <h5 class="card-header bg-white">
         料金プラン
-      </div>
+      </h5>
       <div class="card-body">
         <p class="card-text">{!! $user->plan !!}</p>
       </div>
     </div>
 
-    <div class="card bg-light mb-3">
-      <div class="card-header">
+    <div class="card bg-white mb-3">
+      <h5 class="card-header bg-white">
         サーバー
-      </div>
+      </h5>
       <div class="card-body">
         <p class="card-text">{!! $user->server !!}</p>
       </div>
     </div>
 
-    <div class="card bg-light mb-3">
-      <div class="card-header">
+    <div class="card bg-white mb-3">
+      <h5 class="card-header bg-white">
         申し込み方法
-      </div>
+      </h5>
       <div class="card-body">
         <p class="card-text">{!! $user->apply !!}</p>
       </div>
     </div>
 
-    <div class="card bg-light mb-3">
-      <div class="card-header">
+    <div class="card bg-white mb-3">
+      <h5 class="card-header bg-white">
         申し込み先URL
-      </div>
+      </h5>
       <div class="card-body">
         <p class="card-text">
           @if(!empty($user->apply_url))
@@ -52,6 +52,20 @@
                rel="noreferrer noopener nofollow">{{ $user->apply_url }}</a>
           @endif
         </p>
+      </div>
+    </div>
+
+    <div class="card bg-white mb-3">
+      <h5 class="card-header bg-white">
+        投稿
+      </h5>
+
+      <div class="list-group list-group-flush">
+        @while(have_posts()) @php(the_post())
+        <a href="{{ get_permalink() }}" class="list-group-item list-group-item-action">
+          {{ get_the_title() }}
+        </a>
+        @endwhile
       </div>
     </div>
 

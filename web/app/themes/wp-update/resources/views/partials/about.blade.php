@@ -17,7 +17,9 @@
     <h3>Slack</h3>
     <ul>
       <li>
-        <a href="https://join.slack.com/t/wp-update/shared_invite/enQtMzIxMzMxODg0Mjc0LTA1MzQ2MzY0ZjBiZGE3MzViNjRhNjc2MGUwY2U0NzJkNzc5NzU1OGUwMmFiZDhiMGQwNTg3Y2JiMWM0NzcwMjM" target="_blank" rel="noopener">招待リンク</a>から誰でも参加できます。相談窓口。
+        <a
+          href="https://join.slack.com/t/wp-update/shared_invite/enQtMzIxMzMxODg0Mjc0LTA1MzQ2MzY0ZjBiZGE3MzViNjRhNjc2MGUwY2U0NzJkNzc5NzU1OGUwMmFiZDhiMGQwNTg3Y2JiMWM0NzcwMjM"
+          target="_blank" rel="noopener">招待リンク</a>から誰でも参加できます。相談窓口。
       </li>
     </ul>
 
@@ -33,7 +35,9 @@
     <ul>
       <li>古いWordPressはおそらくサーバーも古いので新しいサーバーに移行作業ができる。</li>
       <li>その後のアップデートも続けられる。</li>
-      <li>適切な料金を設定できる。異常な安売りがこの状況を招いてる。月数千円で制作会社に任せてたWordPressを引き継ぐと実際には何もやってない詐欺ということがほとんど。制作会社視点で考えてもそんな額でまともな対応できるわけがない当たり前の話。</li>
+      <li>
+        適切な料金を設定できる。異常な安売りがこの状況を招いてる。月数千円で制作会社に任せてたWordPressを引き継ぐと実際には何もやってない詐欺ということがほとんど。制作会社視点で考えてもそんな額でまともな対応できるわけがない当たり前の話。
+      </li>
     </ul>
 
     <h3>参加方法</h3>
@@ -43,6 +47,7 @@
                                       rel="nofollow">ユーザー登録</a>後プロフィールを設定。
       </li>
       <li>参加者リストに表示を有効にするまでは表示されない。使用するのは表示名と下のほうの追加項目。</li>
+      <li>WordPressの権限としては「寄稿者」なので投稿可能。</li>
     </ul>
 
     <h3>アップデートの申し込み方法</h3>
