@@ -49,6 +49,7 @@
     "roots/wp-password-bcrypt": "^1.0.0",
     "vlucas/phpdotenv": "^2.0.1",
     "wpackagist-plugin/2fas-light": "*",
+    "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/backwpup": "*",
     "wpackagist-plugin/delete-me": "*",
     "wpackagist-plugin/jetpack": "*",
