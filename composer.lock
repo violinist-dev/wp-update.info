@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "27cb9c8b96061269333d7679c1e15504",
+    "content-hash": "d780c6d464aa8721cd7866572a55b380",
     "packages": [
         {
             "name": "composer/installers",
@@ -476,15 +476,15 @@
         },
         {
             "name": "wpackagist-plugin/delete-me",
-            "version": "2.4",
+            "version": "2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/delete-me/",
-                "reference": "tags/2.4"
+                "reference": "tags/2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/delete-me.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/delete-me.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -493,6 +493,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/delete-me/"
+        },
+        {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "5.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/5.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.5.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
             "name": "wpackagist-plugin/logbook",
