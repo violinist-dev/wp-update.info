@@ -39,6 +39,8 @@
       </div>
 
       {!! \App\FrontPage::pagination($users->get_total()) !!}
+
+      @include('partials.posts')
     </div>
   </div>
 @endsection

@@ -52,7 +52,7 @@
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/backwpup": "*",
     "wpackagist-plugin/delete-me": "*",
-    "wpackagist-plugin/google-sitemap-generator": "^4.0",
+    "wpackagist-plugin/google-sitemap-generator": "*",
     "wpackagist-plugin/gutenberg": "*",
     "wpackagist-plugin/logbook": "*",
     "wpackagist-plugin/mailgun": "*",
