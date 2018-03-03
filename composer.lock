@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "13bd9f04f1ff1d980c91ece303a87ba2",
+    "content-hash": "12d494c128131dfc345191301c07edaa",
     "packages": [
         {
             "name": "composer/installers",
@@ -513,6 +513,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/delete-me/"
+        },
+        {
+            "name": "wpackagist-plugin/gutenberg",
+            "version": "2.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gutenberg/",
+                "reference": "tags/2.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gutenberg/"
         },
         {
             "name": "wpackagist-plugin/jetpack",

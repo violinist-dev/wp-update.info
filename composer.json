@@ -52,6 +52,7 @@
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/backwpup": "*",
     "wpackagist-plugin/delete-me": "*",
+    "wpackagist-plugin/gutenberg": "*",
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/logbook": "*",
     "wpackagist-plugin/mailgun": "*",
