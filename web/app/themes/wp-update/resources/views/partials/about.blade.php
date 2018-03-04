@@ -43,11 +43,17 @@
     <h3>参加方法</h3>
     <ul>
       <li>
-        WordPressのユーザー機能を使っているので普通に<a href="/login/?action=register" class="btn btn-outline-dark"
-                                      rel="nofollow">ユーザー登録</a>後プロフィールを設定。
+        WordPressのユーザー機能を使っているので普通に
+        <a href="/login/?action=register"
+           class="btn btn-outline-dark"
+           rel="nofollow">
+          ユーザー登録
+        </a>
+        後プロフィールを設定。
       </li>
       <li>参加者リストに表示を有効にするまでは表示されない。使用するのは表示名と下のほうの追加項目。</li>
       <li>WordPressの権限としては「寄稿者」なので投稿可能。</li>
+      <li>退会機能と二要素認証対応。</li>
     </ul>
 
     <h3>アップデートの申し込み方法</h3>
