@@ -48,7 +48,7 @@ class FrontPage extends Controller
     {
         $number = env('USER_NUMBER') ?? self::NUMBER;
 
-        if ($total <= $number) {
+        if ($number >= $total) {
             return '';
         }
 
@@ -57,8 +57,6 @@ class FrontPage extends Controller
             'total'   => ceil($total / $number),
             'current' => max(1, get_query_var('page', 1)),
         ];
-
-        $html = paginate_links($args);
 
         $search = [
             'page-numbers',
@@ -76,7 +74,7 @@ class FrontPage extends Controller
             '</li></a>',
         ];
 
-        $html = str_replace($search, $replace, $html);
+        $html = str_replace($search, $replace, paginate_links($args));
 
         return '<ul class="pagination">' . $html . '</ul>';
     }
