@@ -13,6 +13,19 @@ WordPressのサイトなので当然WordPressだけど今回は一人で作る�
 
 GitHubへのpushで→Forge→AWSへデプロイ。
 
+### ForgeのDeploy Script
+```bash
+cd /home/forge/wp-update.info
+git pull origin master
+composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+cp ./web/.user.ini.dist ./web/.user.ini
+
+cd /home/forge/wp-update.info/web/app/themes/wp-update/
+composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+
+echo "" | sudo -S service php7.2-fpm reload
+```
+
 ## テーマ
 一般的なテーマとは違うSage 9なので分かりにくいけど現状見る場所は数ヶ所。
 
