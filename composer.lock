@@ -636,15 +636,15 @@
         },
         {
             "name": "wpackagist-plugin/stops-core-theme-and-plugin-updates",
-            "version": "7.0.0",
+            "version": "7.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stops-core-theme-and-plugin-updates/",
-                "reference": "tags/7.0.0"
+                "reference": "tags/7.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stops-core-theme-and-plugin-updates.7.0.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/stops-core-theme-and-plugin-updates.7.0.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -696,15 +696,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.2.4"
+                "reference": "tags/1.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -718,16 +718,16 @@
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v7.1.2",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "4ee5e98e22a6e5625392e48c82095ec257debcf1"
+                "reference": "f42e0d49542a0ca3f342008db899021b8e794fe0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/4ee5e98e22a6e5625392e48c82095ec257debcf1",
-                "reference": "4ee5e98e22a6e5625392e48c82095ec257debcf1",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/f42e0d49542a0ca3f342008db899021b8e794fe0",
+                "reference": "f42e0d49542a0ca3f342008db899021b8e794fe0",
                 "shasum": ""
             },
             "require": {
@@ -764,7 +764,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-02-07T22:03:46+00:00"
+            "time": "2018-03-06T18:32:42+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -819,7 +819,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.0.5",
+            "version": "v4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -946,7 +946,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.0.5",
+            "version": "v4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -995,7 +995,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.0.5",
+            "version": "v4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
