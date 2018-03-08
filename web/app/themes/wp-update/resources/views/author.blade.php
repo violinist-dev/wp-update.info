@@ -70,6 +70,8 @@
           @endwhile
         </div>
       </div>
+
+      {!! \App\author::pagination() !!}
     @endif
 
   </div>

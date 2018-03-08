@@ -40,6 +40,8 @@ class FrontPage extends Controller
     }
 
     /**
+     * ユーザーリストのページネーション
+     *
      * @param int $total
      *
      * @return string
