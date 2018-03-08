@@ -75,6 +75,9 @@ define('AUTOMATIC_UPDATER_DISABLED', false);
 define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
 
+define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: 3);
+
+
 /**
  * Bootstrap WordPress
  */
