@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "44c9c81c0bee47cce5e4fd10b06435f0",
+    "content-hash": "6bb19901212824a28296e16c7008286a",
     "packages": [
         {
             "name": "composer/installers",
@@ -473,6 +473,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/argiope-amoena",
+            "version": "0.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/argiope-amoena/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/argiope-amoena.zip?timestamp=1512112332",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/argiope-amoena/"
         },
         {
             "name": "wpackagist-plugin/backwpup",
