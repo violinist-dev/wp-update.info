@@ -59,7 +59,7 @@
       <div class="card bg-white mb-3">
         <h5 class="card-header bg-white">
           投稿
-          <a href="{{ get_author_posts_url($user->ID) }}feed/" class="badge badge-pill badge-dark">FEED</a>
+          <a href="{{ get_author_feed_link($user->ID, 'atom') }}" class="badge badge-pill badge-dark">FEED</a>
         </h5>
 
         <div class="list-group list-group-flush">

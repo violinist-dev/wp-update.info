@@ -3,7 +3,8 @@
   <span class="byline author vcard">
   {{ __('by', 'sage') }} <a href="{{ get_author_posts_url(get_the_author_meta('ID')) }}" rel="author" class="fn">
     {{ get_the_author() }}
-      <a href="{{ get_author_posts_url(get_the_author_meta('ID')) }}feed/" class="badge badge-pill badge-dark">FEED</a>
+      <a href="{{ get_author_feed_link(get_the_author_meta('ID'), 'atom') }}"
+         class="badge badge-pill badge-dark">FEED</a>
   </a>
 </span>
 </div>
