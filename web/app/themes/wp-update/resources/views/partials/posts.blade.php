@@ -1,5 +1,5 @@
 @if (have_posts())
-  <h2 class="bg-white">投稿</h2>
+  <h2 class="bg-white">投稿 ({{ wp_count_posts()->publish }})</h2>
 
   <div class="card bg-white mb-3">
     <div class="list-group list-group-flush">

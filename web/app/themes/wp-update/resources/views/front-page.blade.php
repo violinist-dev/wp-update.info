@@ -8,7 +8,7 @@
 
     <div class="col-sm-6">
 
-      <h2 class="bg-white">参加者リスト({{ $users->get_total() }})
+      <h2 class="bg-white">参加者リスト ({{ $users->get_total() }})
         @unless(is_user_logged_in())
           <a href="/login/" class="btn btn-outline-dark" rel="nofollow">ログイン</a>
         @endunless
