@@ -576,15 +576,15 @@
         },
         {
             "name": "wpackagist-plugin/logbook",
-            "version": "1.0.5",
+            "version": "1.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/logbook/",
-                "reference": "tags/1.0.5"
+                "reference": "tags/1.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/logbook.1.0.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/logbook.1.1.0.zip",
                 "reference": null,
                 "shasum": null
             },

@@ -60,24 +60,6 @@ class FrontPage extends Controller
             'current' => max(1, get_query_var('page', 1)),
         ];
 
-        $search = [
-            'page-numbers',
-            '<a',
-            '</a>',
-            '<span',
-            '</span>',
-        ];
-
-        $replace = [
-            'page-link',
-            '<li class="page-item"><a',
-            '</li></a>',
-            '<li class="page-item active"><span',
-            '</li></a>',
-        ];
-
-        $html = str_replace($search, $replace, paginate_links($args));
-
-        return '<ul class="pagination">' . $html . '</ul>';
+        return pagination_bootstrap(paginate_links($args));
     }
 }
