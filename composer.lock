@@ -636,15 +636,15 @@
         },
         {
             "name": "wpackagist-plugin/really-simple-ssl",
-            "version": "2.5.25",
+            "version": "2.5.26",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/really-simple-ssl/",
-                "reference": "tags/2.5.25"
+                "reference": "tags/2.5.26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/really-simple-ssl.2.5.25.zip",
+                "url": "https://downloads.wordpress.org/plugin/really-simple-ssl.2.5.26.zip",
                 "reference": null,
                 "shasum": null
             },

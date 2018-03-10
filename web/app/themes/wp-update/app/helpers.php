@@ -153,12 +153,16 @@ function display_sidebar()
 /**
  * WPのページネーションhtmlをbootstrapに変換
  *
- * @param string $links
+ * @param string|null $links paginate_links()
  *
  * @return string
  */
-function pagination_bootstrap(string $links): string
+function pagination_bootstrap(?string $links): string
 {
+    if (empty($links)) {
+        return '';
+    }
+
     $search = [
         'page-numbers',
         '<a',
