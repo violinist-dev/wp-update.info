@@ -10,7 +10,7 @@
 
       <h2 class="bg-white">参加者リスト ({{ $users->get_total() }})
         @unless(is_user_logged_in())
-          <a href="/login/" class="btn btn-outline-dark" rel="nofollow">ログイン</a>
+          <a href="{{ home_url('/login/') }}" class="btn btn-outline-dark" rel="nofollow">ログイン</a>
         @endunless
       </h2>
 
