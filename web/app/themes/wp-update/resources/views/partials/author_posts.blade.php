@@ -1,5 +1,5 @@
 <div class="card bg-white mb-3">
-  <h5 class="card-header bg-white">
+  <h5 class="card-header text-white bg-dark">
     投稿
   </h5>
 
