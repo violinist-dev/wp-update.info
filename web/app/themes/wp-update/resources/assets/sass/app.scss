@@ -3,14 +3,6 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.body-bg {
-  background-image: url("../images/wordpress-logo@2x.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 100% 100%;
-  background-size: 250px 250px;
-}
-
 .wp-block-image img {
   max-width: 100%;
 }
