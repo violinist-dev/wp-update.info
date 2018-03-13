@@ -11,9 +11,36 @@ class app extends Controller
         return get_bloginfo('name');
     }
 
-    public function phpVersion()
+    /**
+     * @return string
+     */
+    public function phpVersion(): string
     {
         return PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION;
+    }
+
+    /**
+     * @return string
+     */
+    public static function category(): string
+    {
+        $html = '';
+
+        $cats = get_the_category();
+
+        if (empty($cats)) {
+            return '';
+        }
+
+        foreach ($cats as $cat) {
+            $html .= sprintf(
+                '<a href="%s" class="badge badge-pill badge-secondary">%s</a>',
+                get_category_link($cat->term_id),
+                $cat->cat_name
+            );
+        }
+
+        return $html;
     }
 
     public static function title()

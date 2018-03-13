@@ -516,15 +516,15 @@
         },
         {
             "name": "wpackagist-plugin/css-optimization",
-            "version": "0.0.28",
+            "version": "0.0.35",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/css-optimization/",
-                "reference": "tags/0.0.28"
+                "reference": "tags/0.0.35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/css-optimization.0.0.28.zip",
+                "url": "https://downloads.wordpress.org/plugin/css-optimization.0.0.35.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/http2-optimization",
-            "version": "0.0.16",
+            "version": "0.0.18",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/http2-optimization/",
-                "reference": "tags/0.0.16"
+                "reference": "tags/0.0.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/http2-optimization.0.0.16.zip",
+                "url": "https://downloads.wordpress.org/plugin/http2-optimization.0.0.18.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -616,15 +616,15 @@
         },
         {
             "name": "wpackagist-plugin/javascript-optimization",
-            "version": "0.0.23",
+            "version": "0.0.30",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/javascript-optimization/",
-                "reference": "tags/0.0.23"
+                "reference": "tags/0.0.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/javascript-optimization.0.0.23.zip",
+                "url": "https://downloads.wordpress.org/plugin/javascript-optimization.0.0.30.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -798,16 +798,16 @@
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v7.2.0",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "f42e0d49542a0ca3f342008db899021b8e794fe0"
+                "reference": "9f3654533723a792df2327b99e127d20be22e725"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/f42e0d49542a0ca3f342008db899021b8e794fe0",
-                "reference": "f42e0d49542a0ca3f342008db899021b8e794fe0",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/9f3654533723a792df2327b99e127d20be22e725",
+                "reference": "9f3654533723a792df2327b99e127d20be22e725",
                 "shasum": ""
             },
             "require": {
@@ -844,7 +844,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-03-06T18:32:42+00:00"
+            "time": "2018-03-12T19:16:22+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
