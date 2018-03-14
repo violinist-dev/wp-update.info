@@ -516,15 +516,15 @@
         },
         {
             "name": "wpackagist-plugin/css-optimization",
-            "version": "0.0.36",
+            "version": "0.0.37",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/css-optimization/",
-                "reference": "tags/0.0.36"
+                "reference": "tags/0.0.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/css-optimization.0.0.36.zip",
+                "url": "https://downloads.wordpress.org/plugin/css-optimization.0.0.37.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/http2-optimization",
-            "version": "0.0.19",
+            "version": "0.0.20",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/http2-optimization/",
-                "reference": "tags/0.0.19"
+                "reference": "tags/0.0.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/http2-optimization.0.0.19.zip",
+                "url": "https://downloads.wordpress.org/plugin/http2-optimization.0.0.20.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -616,15 +616,15 @@
         },
         {
             "name": "wpackagist-plugin/javascript-optimization",
-            "version": "0.0.31",
+            "version": "0.0.32",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/javascript-optimization/",
-                "reference": "tags/0.0.31"
+                "reference": "tags/0.0.32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/javascript-optimization.0.0.31.zip",
+                "url": "https://downloads.wordpress.org/plugin/javascript-optimization.0.0.32.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -776,15 +776,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.2.5",
+            "version": "1.2.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.2.5"
+                "reference": "tags/1.2.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
