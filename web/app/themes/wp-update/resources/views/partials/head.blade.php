@@ -18,4 +18,6 @@
 
     gtag('config', 'UA-113865733-1');
   </script>
+
+  <meta name="google-site-verification" content="gCXeXeRUe2AYiVELS5a4wVWY-TujX9z1-rs2dnIRBy0"/>
 </head>
