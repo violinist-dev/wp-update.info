@@ -776,15 +776,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.2.6",
+            "version": "1.2.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.2.6"
+                "reference": "tags/1.2.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.2.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
