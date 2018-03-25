@@ -516,15 +516,15 @@
         },
         {
             "name": "wpackagist-plugin/css-optimization",
-            "version": "0.0.43",
+            "version": "0.0.44",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/css-optimization/",
-                "reference": "tags/0.0.43"
+                "reference": "tags/0.0.44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/css-optimization.0.0.43.zip",
+                "url": "https://downloads.wordpress.org/plugin/css-optimization.0.0.44.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/http2-optimization",
-            "version": "0.0.24",
+            "version": "0.0.25",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/http2-optimization/",
-                "reference": "tags/0.0.24"
+                "reference": "tags/0.0.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/http2-optimization.0.0.24.zip",
+                "url": "https://downloads.wordpress.org/plugin/http2-optimization.0.0.25.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -616,15 +616,15 @@
         },
         {
             "name": "wpackagist-plugin/javascript-optimization",
-            "version": "0.0.37",
+            "version": "0.0.39",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/javascript-optimization/",
-                "reference": "tags/0.0.37"
+                "reference": "tags/0.0.39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/javascript-optimization.0.0.37.zip",
+                "url": "https://downloads.wordpress.org/plugin/javascript-optimization.0.0.39.zip",
                 "reference": null,
                 "shasum": null
             },
