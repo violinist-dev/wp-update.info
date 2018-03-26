@@ -12,4 +12,4 @@
   </div>
 </div>
 
-{!! \App\author::pagination() !!}
+{!! Author::pagination() !!}

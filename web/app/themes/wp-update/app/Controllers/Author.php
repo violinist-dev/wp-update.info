@@ -1,12 +1,12 @@
 <?php
 
-namespace App;
+namespace App\Controllers;
 
 use Sober\Controller\Controller;
 
 use WP_User;
 
-class author extends Controller
+class Author extends Controller
 {
     /**
      * author.blade.php の $user
@@ -29,6 +29,6 @@ class author extends Controller
      */
     public static function pagination(): string
     {
-        return pagination_bootstrap(paginate_links());
+        return \App\pagination_bootstrap(paginate_links());
     }
 }

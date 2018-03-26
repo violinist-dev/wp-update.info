@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Controllers;
 
 use Sober\Controller\Controller;
 
@@ -60,6 +60,6 @@ class FrontPage extends Controller
             'current' => max(1, get_query_var('page', 1)),
         ];
 
-        return pagination_bootstrap(paginate_links($args));
+        return \App\pagination_bootstrap(paginate_links($args));
     }
 }

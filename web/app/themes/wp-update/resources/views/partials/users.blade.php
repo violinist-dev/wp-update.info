@@ -28,4 +28,4 @@
   </table>
 </div>
 
-{!! \App\FrontPage::pagination($users->get_total()) !!}
+{!! FrontPage::pagination($users->get_total()) !!}
