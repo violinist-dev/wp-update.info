@@ -516,15 +516,15 @@
         },
         {
             "name": "wpackagist-plugin/css-optimization",
-            "version": "0.0.45",
+            "version": "0.0.51",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/css-optimization/",
-                "reference": "tags/0.0.45"
+                "reference": "tags/0.0.51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/css-optimization.0.0.45.zip",
+                "url": "https://downloads.wordpress.org/plugin/css-optimization.0.0.51.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -576,15 +576,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/2.4.0"
+                "reference": "tags/2.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.5.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/http2-optimization",
-            "version": "0.0.25",
+            "version": "0.0.30",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/http2-optimization/",
-                "reference": "tags/0.0.25"
+                "reference": "tags/0.0.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/http2-optimization.0.0.25.zip",
+                "url": "https://downloads.wordpress.org/plugin/http2-optimization.0.0.30.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -616,15 +616,15 @@
         },
         {
             "name": "wpackagist-plugin/javascript-optimization",
-            "version": "0.0.40",
+            "version": "0.0.44",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/javascript-optimization/",
-                "reference": "tags/0.0.40"
+                "reference": "tags/0.0.44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/javascript-optimization.0.0.40.zip",
+                "url": "https://downloads.wordpress.org/plugin/javascript-optimization.0.0.44.zip",
                 "reference": null,
                 "shasum": null
             },
