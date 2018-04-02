@@ -5,12 +5,14 @@
         </h1>
 
         <span class="btn btn-outline-info">
-      WordPress <span class="badge badge-light">{{ get_bloginfo('version') }}</span>
-    </span>
+            WordPress
+            <span class="badge badge-light">{{ get_bloginfo('version') }}</span>
+        </span>
 
         <span class="btn btn-outline-info">
-      PHP <span class="badge badge-light">{{ $php_version }}</span>
-    </span>
+            PHP
+            <span class="badge badge-light">{{ $php_version }}</span>
+        </span>
 
         <nav class="nav-primary">
             @if (has_nav_menu('primary_navigation'))
