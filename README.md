@@ -1,4 +1,5 @@
 # 古いWordPressをアップデートしようキャンペーン
+[![Maintainability](https://api.codeclimate.com/v1/badges/3ff1a536c10e77f8336a/maintainability)](https://codeclimate.com/github/kawax/wp-update.info/maintainability)
 
 https://wp-update.info/
 
