@@ -556,15 +556,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/2.5.0"
+                "reference": "tags/2.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.5.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.6.0.zip",
                 "reference": null,
                 "shasum": null
             },
