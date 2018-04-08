@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3ff6d5d52c59e15801aa26839f9feb6",
+    "content-hash": "98adc2518c0a52d18e11460b677f9820",
     "packages": [
         {
             "name": "composer/installers",
@@ -493,6 +493,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/argiope-amoena/"
+        },
+        {
+            "name": "wpackagist-plugin/autoptimize",
+            "version": "2.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autoptimize/",
+                "reference": "tags/2.3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.3.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autoptimize/"
         },
         {
             "name": "wpackagist-plugin/backwpup",
