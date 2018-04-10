@@ -436,15 +436,15 @@
         },
         {
             "name": "wpackagist-plugin/2fas-light",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/2fas-light/",
-                "reference": "tags/1.0.3"
+                "reference": "tags/1.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/2fas-light.1.0.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/2fas-light.1.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
