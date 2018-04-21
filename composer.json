@@ -56,6 +56,7 @@
     "wpackagist-plugin/delete-me": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
     "wpackagist-plugin/gutenberg": "*",
+    "wpackagist-plugin/http2-server-push": "*",
     "wpackagist-plugin/logbook": "*",
     "wpackagist-plugin/mailgun": "*",
     "wpackagist-plugin/pods": "*",
