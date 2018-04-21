@@ -32,3 +32,4 @@ web/.user.ini
 object-cache.php
 web/app/cache
 /mainte.html
+!/web/app/plugins/http2-server-push-preload/
