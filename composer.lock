@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc01dd94b7d0f94eff87eefd4b04782e",
+    "content-hash": "044695925521c298e88a97d14187e485",
     "packages": [
         {
             "name": "composer/installers",
@@ -713,6 +713,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/stops-core-theme-and-plugin-updates/"
+        },
+        {
+            "name": "wpackagist-plugin/twitter",
+            "version": "2.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/twitter/",
+                "reference": "tags/2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/twitter.2.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/twitter/"
         },
         {
             "name": "wpackagist-plugin/wordfence",
