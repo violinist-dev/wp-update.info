@@ -4,12 +4,12 @@
             <a class="brand text-white" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
         </h1>
 
-        <span class="btn btn-outline-info">
+        <span class="btn btn-primary">
             WordPress
             <span class="badge badge-light">{{ get_bloginfo('version') }}</span>
         </span>
 
-        <span class="btn btn-outline-info">
+        <span class="btn btn-primary ml-1">
             PHP
             <span class="badge badge-light">{{ $php_version }}</span>
         </span>
