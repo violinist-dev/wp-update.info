@@ -51,6 +51,7 @@
     "wpackagist-plugin/2fas-light": "*",
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/argiope-amoena": "*",
+    "wpackagist-plugin/autoptimize": "*",
     "wpackagist-plugin/backwpup": "*",
     "wpackagist-plugin/delete-me": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
