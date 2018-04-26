@@ -776,15 +776,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.3.2"
+                "reference": "tags/1.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -798,16 +798,16 @@
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v7.3.0",
+            "version": "v7.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "9f3654533723a792df2327b99e127d20be22e725"
+                "reference": "b9e025de9854f9a6386fd4ca7cf33ccf0fd8bb60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/9f3654533723a792df2327b99e127d20be22e725",
-                "reference": "9f3654533723a792df2327b99e127d20be22e725",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/b9e025de9854f9a6386fd4ca7cf33ccf0fd8bb60",
+                "reference": "b9e025de9854f9a6386fd4ca7cf33ccf0fd8bb60",
                 "shasum": ""
             },
             "require": {
@@ -844,7 +844,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-03-12T19:16:22+00:00"
+            "time": "2018-04-24T00:18:06+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
