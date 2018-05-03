@@ -91,26 +91,3 @@ add_filter('pre_user_query', function (&$query) {
         $query->query_orderby = 'ORDER by RAND()';
     }
 });
-
-
-add_filter('wp_title', function ($title, $sep) {
-    if (is_feed()) {
-        return $title;
-    }
-
-    global $page, $paged;
-
-    // Add the blog name
-    $title .= get_bloginfo('name', 'display');
-
-    if (is_home() || is_front_page()) {
-        return $title;
-    }
-
-    // Add a page number if necessary:
-    if (($paged >= 2 || $page >= 2) && !is_404()) {
-        $title .= " $sep " . sprintf(__('Page %s', '_s'), max($paged, $page));
-    }
-
-    return $title;
-});

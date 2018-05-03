@@ -6,8 +6,7 @@
     @php wp_head() @endphp
 
     @if(is_home())
-        <meta name="description" content="{{ get_bloginfo('description') }}"/>
-    @endif
+        <meta name="description" content="古いWordPressをアップデートしようキャンペーン"/>@endif
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113865733-1"></script>
