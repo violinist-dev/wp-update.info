@@ -94,7 +94,7 @@ add_filter('pre_user_query', function (&$query) {
 
 
 add_filter('wp_title', function ($title, $sep) {
-    if (is_home() || is_front_page() || is_feed()) {
+    if (is_feed()) {
         return $title;
     }
 
@@ -102,6 +102,10 @@ add_filter('wp_title', function ($title, $sep) {
 
     // Add the blog name
     $title .= get_bloginfo('name', 'display');
+
+    if (is_home() || is_front_page()) {
+        return $title;
+    }
 
     // Add a page number if necessary:
     if (($paged >= 2 || $page >= 2) && !is_404()) {
