@@ -4,7 +4,7 @@
   </h5>
 
   <div class="list-group list-group-flush">
-    @while(have_posts()) @php(the_post())
+    @while(have_posts()) @php the_post() @endphp
     <a href="{{ get_permalink() }}" class="list-group-item list-group-item-action">
       {{ get_the_title() }}
     </a>

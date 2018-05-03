@@ -1,4 +1,4 @@
-<article @php(post_class())>
+<article @php post_class() @endphp>
   <div class="card my-5">
     <div class="card-body">
 
@@ -8,7 +8,7 @@
       </header>
 
       <div class="entry-content mt-3">
-        @php(the_content())
+        @php the_content() @endphp
       </div>
 
       <footer>

@@ -1,4 +1,4 @@
-<article @php(post_class())>
+<article @php post_class() @endphp>
   <div class="card my-2">
     <div class="card-body">
       <header>
@@ -6,7 +6,7 @@
         @include('partials.entry-meta')
       </header>
       <div class="entry-summary">
-        @php(the_excerpt())
+        @php the_excerpt() @endphp
       </div>
     </div>
   </div>

@@ -1,9 +1,9 @@
 <!doctype html>
-<html @php(language_attributes())>
+<html @php language_attributes() @endphp>
 @include('partials.head')
-<body @php(body_class()) id="barba-wrapper">
+<body @php body_class() @endphp id="barba-wrapper">
 <div class="barba-container">
-    @php(do_action('get_header'))
+    @php do_action('get_header') @endphp
     @include('partials.header')
     <div class="wrap container-fluid" role="document">
         <div class="content">
@@ -17,9 +17,9 @@
             @endif
         </div>
     </div>
-    @php(do_action('get_footer'))
+    @php do_action('get_footer') @endphp
     @include('partials.footer')
-    @php(wp_footer())
+    @php wp_footer() @endphp
 </div>
 </body>
 </html>
