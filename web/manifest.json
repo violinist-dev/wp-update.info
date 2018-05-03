@@ -3,7 +3,7 @@
   "short_name": "wp-update",
   "theme_color": "#0073aa",
   "background_color": "#32373c",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
   "icons": [
