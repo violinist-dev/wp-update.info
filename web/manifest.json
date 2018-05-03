@@ -1,11 +1,9 @@
 {
   "name": "wp-update",
   "short_name": "wp-update",
-  "theme_color": "#0073aa",
-  "background_color": "#32373c",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "/",
   "icons": [
     {
       "src": "/app/themes/wp-update/dist/images/icons/icon-72x72.png",
