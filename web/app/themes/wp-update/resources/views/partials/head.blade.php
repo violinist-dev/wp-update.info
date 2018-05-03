@@ -22,5 +22,6 @@
   <meta name="google-site-verification" content="gCXeXeRUe2AYiVELS5a4wVWY-TujX9z1-rs2dnIRBy0"/>
 
   <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0073aa"/>
 
 </head>
