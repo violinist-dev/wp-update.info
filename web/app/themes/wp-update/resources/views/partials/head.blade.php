@@ -20,4 +20,7 @@
   </script>
 
   <meta name="google-site-verification" content="gCXeXeRUe2AYiVELS5a4wVWY-TujX9z1-rs2dnIRBy0"/>
+
+  <link rel="manifest" href="{!! get_stylesheet_directory_uri() !!}/manifest.json">
+
 </head>
