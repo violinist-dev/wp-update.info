@@ -28,7 +28,7 @@ mix.webpackConfig({
         '/css/app.css': '/app/themes/wp-update/dist/css/app.css',
       },
       publicPath: "/app/themes/wp-update/dist/",
-      externals: [],
+      externals: ['/'],
       ServiceWorker: {
         output: '../../../../sw.js',
         navigateFallbackURL: '/',
