@@ -29,6 +29,7 @@ mix.webpackConfig({
       },
       publicPath: "/app/themes/wp-update/dist/",
       externals: ['/'],
+      responseStrategy: 'network-first',
       ServiceWorker: {
         output: '../../../../sw.js',
         navigateFallbackURL: '/',
