@@ -1,5 +1,5 @@
 <article @php post_class() @endphp>
-  <div class="card my-5">
+  <div class="card">
     <div class="card-body">
 
       <header>
