@@ -43,7 +43,7 @@
             <li>
                 WordPressのユーザー機能を使っているので普通に
                 <a href="{{ home_url('/login/?action=register') }}"
-                   class="btn btn-outline-dark no-barba"
+                   class="btn btn-outline-dark"
                    rel="nofollow">
                     ユーザー登録
                 </a>
