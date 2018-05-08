@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/litespeed-cache",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/2.2.3"
+                "reference": "tags/2.2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.2.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.2.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -656,15 +656,15 @@
         },
         {
             "name": "wpackagist-plugin/pods",
-            "version": "2.7.2",
+            "version": "2.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pods/",
-                "reference": "tags/2.7.2"
+                "reference": "tags/2.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pods.2.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/pods.2.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
