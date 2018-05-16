@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/litespeed-cache",
-            "version": "2.2.4",
+            "version": "2.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/2.2.4"
+                "reference": "tags/2.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -798,16 +798,16 @@
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v7.4.2",
+            "version": "v7.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "3c73add39c20e027e18e3a1269a99a48850c066e"
+                "reference": "4fee0ee599f9150ca1d27e88ce16fc7c1b7e327c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/3c73add39c20e027e18e3a1269a99a48850c066e",
-                "reference": "3c73add39c20e027e18e3a1269a99a48850c066e",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/4fee0ee599f9150ca1d27e88ce16fc7c1b7e327c",
+                "reference": "4fee0ee599f9150ca1d27e88ce16fc7c1b7e327c",
                 "shasum": ""
             },
             "require": {
@@ -844,7 +844,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-05-09T13:01:46+00:00"
+            "time": "2018-05-15T22:28:00+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
