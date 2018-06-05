@@ -576,15 +576,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "2.9.2",
+            "version": "3.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/2.9.2"
+                "reference": "tags/3.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.9.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.0.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/litespeed-cache",
-            "version": "2.2.6",
+            "version": "2.2.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/2.2.6"
+                "reference": "tags/2.2.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.2.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.2.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -798,16 +798,16 @@
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v7.6.2",
+            "version": "v7.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "848a4f6abbb3ac64c84691867d30d5f6f765889c"
+                "reference": "4895d028e1214c9df34ed0104775e6ae1eb23d77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/848a4f6abbb3ac64c84691867d30d5f6f765889c",
-                "reference": "848a4f6abbb3ac64c84691867d30d5f6f765889c",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/4895d028e1214c9df34ed0104775e6ae1eb23d77",
+                "reference": "4895d028e1214c9df34ed0104775e6ae1eb23d77",
                 "shasum": ""
             },
             "require": {
@@ -844,7 +844,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-05-26T14:25:04+00:00"
+            "time": "2018-06-03T21:17:32+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
