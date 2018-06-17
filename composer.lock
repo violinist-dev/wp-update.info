@@ -516,15 +516,15 @@
         },
         {
             "name": "wpackagist-plugin/backwpup",
-            "version": "3.5.1",
+            "version": "3.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/backwpup/",
-                "reference": "tags/3.5.1"
+                "reference": "tags/3.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backwpup.3.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/backwpup.3.6.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/litespeed-cache",
-            "version": "2.2.7",
+            "version": "2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/2.2.7"
+                "reference": "tags/2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.2.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -656,15 +656,15 @@
         },
         {
             "name": "wpackagist-plugin/pods",
-            "version": "2.7.4",
+            "version": "2.7.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pods/",
-                "reference": "tags/2.7.4"
+                "reference": "tags/2.7.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pods.2.7.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/pods.2.7.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -676,15 +676,15 @@
         },
         {
             "name": "wpackagist-plugin/really-simple-ssl",
-            "version": "3.0",
+            "version": "3.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/really-simple-ssl/",
-                "reference": "trunk"
+                "reference": "tags/3.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/really-simple-ssl.zip?timestamp=1527244544",
+                "url": "https://downloads.wordpress.org/plugin/really-simple-ssl.3.0.1.zip",
                 "reference": null,
                 "shasum": null
             },
