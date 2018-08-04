@@ -128,20 +128,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.7",
+            "version": "4.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "6697a15cdfd60cfdf9f4bf04a4e7637a8d2a5afa"
+                "reference": "de02cd79a41e06f36558040724414197cb7f6246"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6697a15cdfd60cfdf9f4bf04a4e7637a8d2a5afa",
-                "reference": "6697a15cdfd60cfdf9f4bf04a4e7637a8d2a5afa",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/de02cd79a41e06f36558040724414197cb7f6246",
+                "reference": "de02cd79a41e06f36558040724414197cb7f6246",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.7",
+                "johnpbloch/wordpress-core": "4.9.8",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -163,27 +163,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-07-05T18:12:19+00:00"
+            "time": "2018-08-02T21:48:39+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.7",
+            "version": "4.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "1116e10f71f8fb811856df212af652c427bc6bd1"
+                "reference": "50323f9b91d7689d615b4af02caf9d80584b1cfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/1116e10f71f8fb811856df212af652c427bc6bd1",
-                "reference": "1116e10f71f8fb811856df212af652c427bc6bd1",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/50323f9b91d7689d615b4af02caf9d80584b1cfc",
+                "reference": "50323f9b91d7689d615b4af02caf9d80584b1cfc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.7"
+                "wordpress/core-implementation": "4.9.8"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -203,7 +203,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-07-05T18:12:13+00:00"
+            "time": "2018-08-02T21:48:32+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -386,16 +386,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "6ae3e2e6494bb5e58c2decadafc3de7f1453f70a"
+                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/6ae3e2e6494bb5e58c2decadafc3de7f1453f70a",
-                "reference": "6ae3e2e6494bb5e58c2decadafc3de7f1453f70a",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
+                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +432,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2018-07-01T10:25:50+00:00"
+            "time": "2018-07-29T20:33:41+00:00"
         },
         {
             "name": "wpackagist-plugin/2fas-light",
@@ -536,15 +536,15 @@
         },
         {
             "name": "wpackagist-plugin/delete-me",
-            "version": "2.6",
+            "version": "2.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/delete-me/",
-                "reference": "tags/2.6"
+                "reference": "tags/2.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/delete-me.2.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/delete-me.2.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -576,15 +576,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "3.2.0",
+            "version": "3.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/3.2.0"
+                "reference": "tags/3.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.2.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.4.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -596,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/litespeed-cache",
-            "version": "2.4",
+            "version": "2.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/2.4"
+                "reference": "tags/2.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -636,15 +636,15 @@
         },
         {
             "name": "wpackagist-plugin/mailgun",
-            "version": "1.5.11",
+            "version": "1.5.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailgun/",
-                "reference": "tags/1.5.11"
+                "reference": "tags/1.5.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.11.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.12.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -656,15 +656,15 @@
         },
         {
             "name": "wpackagist-plugin/pods",
-            "version": "2.7.6",
+            "version": "2.7.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pods/",
-                "reference": "tags/2.7.6"
+                "reference": "tags/2.7.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pods.2.7.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/pods.2.7.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -676,15 +676,15 @@
         },
         {
             "name": "wpackagist-plugin/really-simple-ssl",
-            "version": "3.0.2",
+            "version": "3.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/really-simple-ssl/",
-                "reference": "tags/3.0.2"
+                "reference": "tags/3.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/really-simple-ssl.3.0.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/really-simple-ssl.3.0.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -736,15 +736,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "7.1.8",
+            "version": "7.1.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/7.1.8"
+                "reference": "tags/7.1.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.7.1.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.7.1.10.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -776,15 +776,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.3.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.3.4.2"
+                "reference": "tags/1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.3.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -798,16 +798,16 @@
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v7.9.0",
+            "version": "v7.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "986f3db020de89c4651d018667ad034301caa738"
+                "reference": "59dfd90d59891d49b1024ad6d84b9c3c1d920bf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/986f3db020de89c4651d018667ad034301caa738",
-                "reference": "986f3db020de89c4651d018667ad034301caa738",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/59dfd90d59891d49b1024ad6d84b9c3c1d920bf3",
+                "reference": "59dfd90d59891d49b1024ad6d84b9c3c1d920bf3",
                 "shasum": ""
             },
             "require": {
@@ -845,20 +845,20 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-06-24T16:38:19+00:00"
+            "time": "2018-08-01T12:36:07+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "d86873af43b4aa9d1f39a3601cc0cfcf02b25266"
+                "reference": "628a481780561150481a9ec74709092b9759b3ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d86873af43b4aa9d1f39a3601cc0cfcf02b25266",
-                "reference": "d86873af43b4aa9d1f39a3601cc0cfcf02b25266",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/628a481780561150481a9ec74709092b9759b3ec",
+                "reference": "628a481780561150481a9ec74709092b9759b3ec",
                 "shasum": ""
             },
             "require": {
@@ -896,20 +896,20 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-06-06T23:58:19+00:00"
+            "time": "2018-07-26T23:47:18+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v4.1.1",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "70591cda56b4b47c55776ac78e157c4bb6c8b43f"
+                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/70591cda56b4b47c55776ac78e157c4bb6c8b43f",
-                "reference": "70591cda56b4b47c55776ac78e157c4bb6c8b43f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/ca80b8ced97cf07390078b29773dc384c39eee1f",
+                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f",
                 "shasum": ""
             },
             "require": {
@@ -964,7 +964,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-31T10:17:53+00:00"
+            "time": "2018-07-26T11:24:31+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1082,16 +1082,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.1.1",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "1d1677391ecf00d1c5b9482d6050c0c27aa3ac3a"
+                "reference": "f01fc7a4493572f7f506c49dcb50ad01fb3a2f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/1d1677391ecf00d1c5b9482d6050c0c27aa3ac3a",
-                "reference": "1d1677391ecf00d1c5b9482d6050c0c27aa3ac3a",
+                "url": "https://api.github.com/repos/symfony/process/zipball/f01fc7a4493572f7f506c49dcb50ad01fb3a2f56",
+                "reference": "f01fc7a4493572f7f506c49dcb50ad01fb3a2f56",
                 "shasum": ""
             },
             "require": {
@@ -1127,20 +1127,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-31T10:17:53+00:00"
+            "time": "2018-07-26T11:24:31+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.1.1",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "80e4bfa9685fc4a09acc4a857ec16974a9cd944e"
+                "reference": "46bc69aa91fc4ab78a96ce67873a6b0c148fd48c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/80e4bfa9685fc4a09acc4a857ec16974a9cd944e",
-                "reference": "80e4bfa9685fc4a09acc4a857ec16974a9cd944e",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/46bc69aa91fc4ab78a96ce67873a6b0c148fd48c",
+                "reference": "46bc69aa91fc4ab78a96ce67873a6b0c148fd48c",
                 "shasum": ""
             },
             "require": {
@@ -1186,7 +1186,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-30T07:26:09+00:00"
+            "time": "2018-07-26T11:24:31+00:00"
         }
     ],
     "aliases": [],
