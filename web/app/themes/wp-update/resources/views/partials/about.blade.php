@@ -14,11 +14,11 @@
                target="_blank"
                rel="noopener">servehappy</a></p>
 
-        <h3>Slack</h3>
+        <h3>Discord</h3>
         <ul>
             <li>
-                <a href="https://join.slack.com/t/wp-update/shared_invite/enQtMzIxMzMxODg0Mjc0LTA1MzQ2MzY0ZjBiZGE3MzViNjRhNjc2MGUwY2U0NzJkNzc5NzU1OGUwMmFiZDhiMGQwNTg3Y2JiMWM0NzcwMjM"
-                   target="_blank" rel="noopener">招待リンク</a>から誰でも参加できます。相談窓口。
+                <a href="https://discord.gg/2PqBKVd"
+                   target="_blank" rel="noopener">招待リンク</a>から誰でも参加できます。
             </li>
         </ul>
 
