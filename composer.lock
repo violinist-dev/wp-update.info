@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "044695925521c298e88a97d14187e485",
+    "content-hash": "2cd89b4cc8194389486548bfbe6698e2",
     "packages": [
         {
             "name": "composer/installers",
@@ -516,15 +516,15 @@
         },
         {
             "name": "wpackagist-plugin/backwpup",
-            "version": "3.6.3",
+            "version": "3.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/backwpup/",
-                "reference": "tags/3.6.3"
+                "reference": "tags/3.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backwpup.3.6.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/backwpup.3.6.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -533,6 +533,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/backwpup/"
+        },
+        {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
         },
         {
             "name": "wpackagist-plugin/delete-me",
@@ -576,15 +596,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "4.4.0",
+            "version": "4.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/4.4.0"
+                "reference": "tags/4.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -596,15 +616,15 @@
         },
         {
             "name": "wpackagist-plugin/litespeed-cache",
-            "version": "2.7.1",
+            "version": "2.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/2.7.1"
+                "reference": "tags/2.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.2.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
