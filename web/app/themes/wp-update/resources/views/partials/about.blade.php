@@ -28,7 +28,6 @@
       <li>
         ここのaboutの文章：<a href="https://github.com/kawax/wp-update.info" target="_blank" rel="noopener">GitHub</a>で。
       </li>
-      <li>このサイトの運営会社。作業もサーバー費用出す必要もなく名前だけの運営会社になってもいい会社があればSlackから連絡を。</li>
     </ul>
 
     <h3>参加条件</h3>
