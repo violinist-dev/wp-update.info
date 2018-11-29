@@ -14,7 +14,7 @@
          target="_blank"
          rel="noopener">servehappy</a></p>
 
-    <h3>Discord</h3>
+    <h3>Discordチャット</h3>
     <ul>
       <li>
         <a href="https://discord.gg/2PqBKVd"
