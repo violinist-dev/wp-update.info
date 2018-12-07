@@ -56,7 +56,6 @@
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/delete-me": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
-    "wpackagist-plugin/gutenberg": "*",
     "wpackagist-plugin/litespeed-cache": "*",
     "wpackagist-plugin/logbook": "*",
     "wpackagist-plugin/mailgun": "*",
