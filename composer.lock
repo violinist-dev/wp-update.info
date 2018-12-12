@@ -656,15 +656,15 @@
         },
         {
             "name": "wpackagist-plugin/pods",
-            "version": "2.7.10",
+            "version": "2.7.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pods/",
-                "reference": "tags/2.7.10"
+                "reference": "tags/2.7.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pods.2.7.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/pods.2.7.11.zip",
                 "reference": null,
                 "shasum": null
             },
